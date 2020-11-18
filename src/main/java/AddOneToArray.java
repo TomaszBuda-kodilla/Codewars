@@ -1,4 +1,4 @@
-public class Solution {
+public class AddOneToArray {
     public static int[] increment(int[] array) {
         int[] newArray = new int[array.length + 1];
 
@@ -16,7 +16,7 @@ public class Solution {
 
     public static void main(String[] args) {
         int[] array = new int[]{8, 9, 9};
-        Solution.increment(array);
+        AddOneToArray.increment(array);
     }
 }
 
