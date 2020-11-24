@@ -1,6 +1,3 @@
-import java.util.stream.Collectors;
-import java.util.stream.Stream;
-
 /* RULES: The numbers (a,b) may be positive , negative values or zeros .
 Returning value will be an integer .
 Java: the following methods are prohibited:
