@@ -18,9 +18,6 @@ public class Poet {
                 middle++;
             }
         }
-        for (int k = 0; k < music.length; k++) {
-            System.out.println(music[k]);
-        }
         return music;
     }
 }
