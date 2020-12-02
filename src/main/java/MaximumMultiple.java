@@ -3,7 +3,6 @@ public class MaximumMultiple {
         while(bound%divisor != 0){
             bound--;
         }
-        System.out.println("The largest multiple of " + divisor + " is : " + bound);
         return bound;
     }
 }
