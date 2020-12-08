@@ -16,9 +16,4 @@ public class SumParts {
         System.out.println("Elements of array:" + Arrays.toString(newTab));
         return newTab;
     }
-
-    public static void main(String[] args) {
-        int[] tab = new int[]{2, 4, 6, 8, 10};
-        SumParts.sumParts(tab);
-    }
 }
