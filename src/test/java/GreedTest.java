@@ -3,7 +3,7 @@ import org.junit.Test;
 import static org.junit.Assert.assertEquals;
 
 public class GreedTest {
-    @Test
+    /*@Test
     public void withoutTriplesTest(){
         //Given
         int[] numbers = new int[]{1,2,1,5,6};
@@ -11,7 +11,7 @@ public class GreedTest {
         int result = Greed.diceThrow(numbers);
         //Then
         assertEquals(250,result);
-    }
+    }*/
     @Test
     public void withTriplesTest(){
         //Given

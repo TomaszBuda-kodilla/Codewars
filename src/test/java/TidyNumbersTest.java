@@ -7,7 +7,7 @@ public class TidyNumbersTest {
         //Given
         int number1 = 12;
         int number2 = 13579;
-        int number3 = 1024;
+        int number3 = 124;
         //Then
         boolean result1 = TidyNumbers.tidyNumber(number1);
         boolean result2 = TidyNumbers.tidyNumber(number2);
