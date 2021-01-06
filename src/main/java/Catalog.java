@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Catalog {
     public static String catalog(String s, String article) {
         String result ="";
-        String[] strArr = s.split("</prod>");
+        String[] strArr = s.split("<prod>(\\w+)</prod>");
         for (int i=0; i< strArr.length;i++){
             if (strArr[i].contains(article))
             {
@@ -14,5 +14,9 @@ public class Catalog {
             }
         }
         return result;
+    }
+
+    public static void main(String[] args) {
+        String s = "";
     }
 }
