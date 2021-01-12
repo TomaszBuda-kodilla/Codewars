@@ -1,5 +1,3 @@
-import java.util.Arrays;
-
 public class SplitStrings {
     public static String[] split(String myWord) {
         if (myWord.length()%2!=0) myWord+="_";

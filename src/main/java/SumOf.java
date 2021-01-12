@@ -12,7 +12,8 @@ Java: the following methods are prohibited:
     reduce,
     subtractExact,
     sum,
-    summing . The following classes are prohibited: BigDecimal and BigInteger .*/
+    summing .
+The following classes are prohibited: BigDecimal and BigInteger .*/
 public class SumOf {
     public static int sum(int a, int b) {
         int result = 0;
