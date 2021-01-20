@@ -12,4 +12,8 @@ public class OrderOfWordsTest {
         //Then
         assertEquals("wha1t is2 this3",result);
     }
+    @Test
+    public void test2() {
+        assertThat(OrderOfWords.order("4of Fo1r pe6ople g3ood th5e the2"), equalTo("Fo1r the2 g3ood 4of th5e pe6ople"));
+    }
 }
