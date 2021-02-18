@@ -1,5 +1,6 @@
-package kyu_8.stream;
+package kyu_8;
 
+import kyu_8.Century;
 import org.junit.Test;
 import static org.junit.Assert.assertEquals;
 

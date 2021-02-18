@@ -1,4 +1,4 @@
-package kyu_8.stream;
+package kyu_8;
 
 public class Century {
     public static int century(int number) {
